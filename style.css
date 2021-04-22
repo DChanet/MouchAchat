@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.presentation-section {
+    background-color: hotpink;
+}
+
+.col {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#body {
+    background-color: lightyellow;
+}
+
+#produit-1 {
+    background-color: lightgray;
+}
+
+#produit-2 {
+    background-color: lightgreen;
+}
+
+#produit-3 {
+    background-color: lightcoral;
+}
+
+#produit-4 {
+    background-color: lightblue;
+}
+
+#mail {
+    background-color: lightgoldenrodyellow;
+}
+
+#tel {
+    background-color: lightyellow;
+}
+
+#address {
+    background-color: lightgoldenrodyellow;
+}
+
