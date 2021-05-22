@@ -13,21 +13,6 @@
 
     <h1 class="text-center mb-5 mt-5"><u>MouchAchat : Site d'achat de mouchoir</u></h1>
 
-                        <!-- TEST -->
-
-    <!--<section id="test">
-        <div class="container">
-            <div class="col justify-content-center">
-                <div class="border border-primary row">Info 1A</div>
-                <div class="border border-danger row">Info 1B</div>
-            </div>
-            <div class="row">
-                <p class="border border-primary col">Info 1A</p>
-                <p class="border border-danger col">Info 1B</p>
-            </div>
-        </div>
-    </section>-->
-
                         <!-- NAVIGATION -->
     
         <nav class="nav justify-content-around" id="Nav">
@@ -58,10 +43,6 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#presentation">Présentation</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#produit">produit</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Expérience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#competence">Compétences</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projets</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#pratique">Pratique</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -103,6 +84,7 @@
                     <h5><!--Produit n°1 : -->Classic</h5>
                     <p>Le produit n°1 est un mouchoir de couleur blanc et sans odeur particulière.</p>
                     <button type="button" class="btn btn-outline-dark" id="btn-classic">Acheter</button>
+                    <button type="button" class="btn btn-outline-danger" id="btn-sup">Supprimer</button>
 
                 </div>
                 <div class="col rounded-3 pb-5 pt-5" id="produit-2">
@@ -182,7 +164,7 @@
                                 Prix du produit
                             </th>
                             <th scope="col">
-                                Ajouter/Supprimer
+                                Supprimer
                             </th>
                         </tr>
                     </thead>
@@ -202,8 +184,7 @@
                                 5.25
                             </td>
                             <td>
-                                <button type="button" class="btn btn-outline-success">Ajouter</button>
-                                <button type="button" class="btn btn-outline-danger">Supprimer</button>
+                                <button type="button" class="btn btn-outline-danger" id="btn-sup">Supprimer</button>
                             </td>
                             <td>
                                 10.50
@@ -215,7 +196,7 @@
 
                         <!-- TOTAL DE LA COMMANDE -->
 
-                <table class="table table striped">
+                <table class="table table striped mb-5 mt-5">
                     <thead id="table-total">
                         <th>
                             Totaux : 
@@ -223,20 +204,21 @@
                         <td id="totaux">
 
                         </td>
-                        <td>
-
-                        </td>
                     </thead>
                 </table>
 
             </div>
+
+            <button type="button" class="btn btn-outline-dark" id="valide-com">
+                Valider la commande
+            </button>
 
         </div>
     </section>
 
                         <!-- CONTACT -->
 
-    <section class="contact-section text-center" id="contact">
+    <section class="contact-section text-center mb-5 mt-5" id="contact">
         <div class="container">
 
             <h4><u>Contact</u></h4>
